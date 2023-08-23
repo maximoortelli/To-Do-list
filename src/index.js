@@ -30,6 +30,7 @@ class Tasks {
   constructor() {
     this.elements = JSON.parse(localStorage.getItem('list')) || list;
   }
+
   showMyList() {
     const theLists = document.querySelector('.allthelist');
     theLists.innerHTML = '';
