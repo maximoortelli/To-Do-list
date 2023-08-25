@@ -4,7 +4,7 @@
   <img src="cat-black-face.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>To do list: List Stucture.</b></h3>
+  <h3><b>To do list: Add & Remove.</b></h3>
 
 </div>
 
@@ -33,9 +33,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 To do list: List Stucture.<a name="about-project"></a>
+# 📖 To do list: Add & Remove.<a name="about-project"></a>
 
-To do list: List Stucture.In this project, i will build a simple HTML list of To Do tasks. The list will be styled according to the specifications listed later in this lesson. This simple web page will be built using webpack and served by a webpack dev server. The goal here is to master all of the tools and best practices learned about in previous steps to use them in all Microverse projects and most likely in my future job as well.
+To do list: Add & Remove. In this project, i will implement the CRUD (create, read, update, delete) methods. All the elements of the user interface will be fully functional and my application will be completed. The goal here is to master all of the tools and best practices learned about in previous steps to use them in all Microverse projects and most likely in my future job as well.
 
 ## 🛠 Built With <a name="built-with"></a>
 
