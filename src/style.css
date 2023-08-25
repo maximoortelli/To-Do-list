@@ -1,0 +1,124 @@
+body {
+  padding: 5%;
+  font-size: 2rem;
+  color: rgb(92, 90, 90);
+  font-family:
+    "Lucida Sans",
+    "Lucida Sans Regular",
+    "Lucida Grande",
+    "Lucida Sans Unicode",
+    Geneva,
+    Verdana,
+    sans-serif;
+}
+
+#group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  padding: 0;
+  width: 60%;
+  margin-left: 20%;
+  border-radius: 20px;
+}
+
+#allmylist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  margin-top: -30px;
+  margin-bottom: -38px;
+}
+
+.Groupdiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 94%;
+  padding: 3%;
+  margin-left: 0;
+  border-bottom: solid rgb(222, 218, 218) 1px;
+}
+
+.ul {
+  width: 100%;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.li {
+  margin-left: 0;
+  width: 100%;
+}
+
+.list {
+  padding: 2%;
+  width: 94%;
+  font-size: 2rem;
+  border-bottom: 0;
+  margin-bottom: -10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clear {
+  width: 94%;
+  padding: 3%;
+  margin: 0;
+  margin-top: -30px;
+  background-color: rgb(207, 202, 202);
+  color: rgb(116, 112, 112);
+  text-align: center;
+  border-radius: 0 0 20px 20px;
+}
+
+.addTask {
+  width: 100%;
+  margin: 0;
+}
+
+.addTask > .input {
+  width: 93.7%;
+  padding: 3%;
+  margin-top: -70px;
+  border: solid rgb(222, 218, 218) 1px;
+  font-size: 2rem;
+  background-image: url('./assets/push.png');
+  background-repeat: no-repeat;
+  background-position: 96%;
+}
+
+.div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5%;
+  width: 100%;
+}
+
+.threepoints {
+  cursor: pointer;
+}
+
+.mytrash {
+  cursor: pointer;
+  width: 5%;
+}
+
+#picture {
+  width: 22px;
+  height: 22px;
+  background-image: url('./assets/sync.png');
+  display: inline-block;
+  margin-right: 1%;
+}
